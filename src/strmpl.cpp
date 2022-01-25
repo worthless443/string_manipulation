@@ -53,9 +53,9 @@ namespace  design {
 				void mk_req() {
 					using namespace curlpp;
 					Cleanup cleanup__;
-					Options::Url *r1(s);
+					Options::Url *r1 = new  Options::Url(s);
+					os << *r1;
 					std::cout << (r1==NULL);
-					//std::cout << os.str();
 				}
 			};
 		};
@@ -70,7 +70,7 @@ void example() {
 
 
 int main() {
-	design::curl__::reqs c(std::string{"https://reddit.com"});
+	design::curl__::reqs c(std::string{"https://patxiofuckfuck.com"});
 	c.mk_req();
 	//std::cout << t << "char";
 	return 0;
