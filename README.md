@@ -14,3 +14,9 @@ cd string_manipulation
 make && ./strmpl
 ```
 expected result is `0`, runtime error else wise
+
+###TODO  
+
+* Add to, expand and organize `design::util__::reqs` 
+* add http POST header options and to follow redirects 
+* Add SSL 
