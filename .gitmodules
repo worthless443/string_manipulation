@@ -1,3 +1,6 @@
 [submodule "fmt"]
 	path = fmt
 	url = ./fmt
+[submodule "curlpp"]
+	path = curlpp
+	url = ./curlpp
